@@ -21,7 +21,7 @@ window.onload=function(){
 function insertAfter(el, referenceNode) {
     if(referenceNode) {
         referenceNode.parentNode.insertBefore(el, referenceNode.nextSibling);
-        load_home();
+        // load_home();
 
     }
 }
